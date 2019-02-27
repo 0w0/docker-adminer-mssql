@@ -7,5 +7,5 @@ docker run -d --restart=always \
   -p 8080:8080 \
   -e ADMINER_PLUGINS='tables-filter' \
   -e ADMINER_DESIGN='nette' \
-  0w0b/adminer-mssql:4.7.0
+  ikewat/adminer-mssql:4.7.0
 ```
