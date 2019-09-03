@@ -1,4 +1,4 @@
-FROM adminer:4.7.0
+FROM adminer:4.7.3
 
 USER root
 RUN apk add --no-cache --virtual .php-ext-deps unixodbc freetds && \
